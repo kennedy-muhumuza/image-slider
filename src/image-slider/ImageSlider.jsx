@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import styles from "./ImageSlider.module.css";
 
 export const ImageSlider = () => {
@@ -5,7 +6,7 @@ export const ImageSlider = () => {
 
   const images = [
     "Emma1.jpg",
-    "Ruth.jpg",
+    "Ruth1.jpg",
     "Praise1.jpg",
     "women-in-energy.jpg",
     "group1.jpg",
