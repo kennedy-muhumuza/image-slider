@@ -59,9 +59,9 @@ export const ImageSlider = () => {
 
   return (
     <div className={styles["image-slider-container"]}>
-      <div className={styles["group-photo-container"]}>
-        <img src={activeImage} alt="" className={styles["person"]} />
-      </div>
+      {/* <div className={styles["group-photo-container"]}> */}
+      <img src={activeImage} alt="" className={styles["person"]} />
+      {/* </div> */}
     </div>
   );
 };

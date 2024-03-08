@@ -1,5 +1,27 @@
-.group-photo-container {
+/* .group-photo-container {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+
+.image-slider-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  /* background-color: green; */
+}
+
+/* .group-photo-container {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: pink;
+} */
+
+.person {
+  width: 100%; /* Let the browser calculate the width based on the height */
+  height: auto; /* Ensure the image fills the container's height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
 }
