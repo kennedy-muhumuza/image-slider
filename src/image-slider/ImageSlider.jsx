@@ -27,7 +27,7 @@ export const ImageSlider = () => {
     "gis9.jpg",
     "gis10.jpg",
     "gis11.jpg",
-    "reservoir-challenge.jpg",
+    // "reservoir-challenge.jpg",
     "voice1.jpg",
     "voice2.jpg",
     // "voice3.jpg",
